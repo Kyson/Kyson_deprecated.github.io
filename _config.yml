@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
+name: Kyson
 
 # Short bio or description (displayed in the header)
 description: Android Dev
@@ -18,7 +18,7 @@ avatar: https://raw.githubusercontent.com/Kyson/Kyson.github.io/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: kyson@hikyson.cn
+  email:
   facebook: kyson.chao
   flickr:
   github: Kyson
@@ -54,6 +54,8 @@ baseurl: ""
 #
 
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: pygments
 permalink: /:title/
 
