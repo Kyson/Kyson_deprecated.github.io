@@ -11,7 +11,7 @@ title: 语法测试
 
 ![https://raw.githubusercontent.com/Kyson/Kyson.github.io/master/images/jekyll-logo.png](https://raw.githubusercontent.com/Kyson/Kyson.github.io/master/images/jekyll-logo.png)
 
-[www.hikyson.cn](www.hikyson.cn)
+[http://www.hikyson.cn/](http://www.hikyson.cn/)
 
 
 ```java
