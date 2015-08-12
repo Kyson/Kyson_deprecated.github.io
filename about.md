@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Github：[https://github.com/Kyson](https://github.com/Kyson)
 
-### More Information
+OSC：[http://git.oschina.net/cocobaby](http://git.oschina.net/cocobaby)
 
-A place to include any other types of information that you'd like to include about yourself.
+我的新浪微博：[AndroidKy](http://weibo.com/1980495343/profile?topnav=1&wvr=5&user=1)
 
-### Contact me
+我的邮箱：kysonchao@gmail.com
 
-[email@domain.com](mailto:email@domain.com)
+我的个人博客：[http://www.hikyson.cn](http://www.hikyson.cn)
