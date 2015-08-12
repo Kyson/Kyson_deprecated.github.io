@@ -264,21 +264,22 @@ nav {
 
 table th {
   font-weight: bold;
-  border: 1px solid $gray;
+  border: 1px solid $lightGray;
   padding: 6px 13px;
+  font: 20px/1.4 $helvetica;
+  color: $darkerGray;
 }
 
 table td {
-  border: 1px solid $gray;
+  border: 1px solid $lightGray;
   padding: 6px 13px;
-  font: 20px/1.4 $helvetica;
-  font-weight: bold;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
 }
 
 table tr {
-  border-top: 1px solid #gray;
+  border-top: 1px solid #lightGray;
   background-color: #fff;
-  font: 18px/1.4 $helvetica;
 }
 
 table tr:nth-child(2n) {
