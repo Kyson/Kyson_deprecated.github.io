@@ -264,21 +264,21 @@ nav {
 
 table th {
   font-weight: bold;
-  border: 1px solid $lightGray;
+  border: 1px solid $gray;
   padding: 6px 13px;
-  font: 20px/1.4 $helvetica;
+  font: 20px/1.4 $helveticaNeue;
   color: $darkerGray;
 }
 
 table td {
-  border: 1px solid $lightGray;
+  border: 1px solid $gray;
   padding: 6px 13px;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
 table tr {
-  border-top: 1px solid #lightGray;
+  border-top: 1px solid #gray;
   background-color: #fff;
 }
 
