@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -255,8 +255,7 @@ nav {
   blockquote {
     border-left: 2px solid $gray;
     padding: 0 15px;
-    color: $gray;
-    font-style: italic;
+    color: #aaa;
   }
   
   /* TABLES
