@@ -253,11 +253,18 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
     font-style: italic;
+  }
+  
+  blockquote>:first-child {
+  margin-top: 0px;
+  }
+
+  blockquote>:last-child {
+  margin-bottom: 0px;
   }
 
   .comments {
