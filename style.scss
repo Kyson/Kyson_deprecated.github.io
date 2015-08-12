@@ -264,15 +264,17 @@ nav {
 
 table th {
   font-weight: bold;
+  border: 1px solid $darkGray;
+  padding: 6px 13px;
 }
 
-table th, table td {
-  border: 1px solid #ccc;
+table td {
+  border: 1px solid $darkGray;
   padding: 6px 13px;
 }
 
 table tr {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #darkGray;
   background-color: #fff;
 }
 
