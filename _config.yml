@@ -6,7 +6,7 @@
 name: Your Name
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Android Dev
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/Kyson/Kyson.github.io/master/images/jekyll-logo.png
@@ -18,15 +18,15 @@ avatar: https://raw.githubusercontent.com/Kyson/Kyson.github.io/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: kyson@hikyson.cn
+  facebook: kyson.chao
   flickr:
-  github: barryclark/jekyll-now
+  github: Kyson
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: jekyllrb
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
