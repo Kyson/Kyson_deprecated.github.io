@@ -40,7 +40,7 @@ dependencies {
 
 建立项目我就不说了，不在本文范畴内，我们主要看我们需要上传的library这个module，我的项目结构这样：
 
-![http://git.oschina.net/cocobaby/kyson_public_log/raw/master/hikyson.cn/10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android%20library%E5%88%B0jcenter/projectpreview.png?dir=0&filepath=hikyson.cn%2F10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android+library%E5%88%B0jcenter%2Fprojectpreview.png&oid=c6fa0bae6edc68600372b87645588597612dd026&sha=86b05ca7dd77ec438325c52ef0bd6639a4d22807](http://git.oschina.net/cocobaby/kyson_public_log/raw/master/hikyson.cn/10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android%20library%E5%88%B0jcenter/projectpreview.png?dir=0&filepath=hikyson.cn%2F10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android+library%E5%88%B0jcenter%2Fprojectpreview.png&oid=c6fa0bae6edc68600372b87645588597612dd026&sha=86b05ca7dd77ec438325c52ef0bd6639a4d22807)
+![preview](https://raw.githubusercontent.com/Kyson/Kyson.github.io/master/images/post_img/10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android%20library%E5%88%B0jcenter/projectpreview.png)
 
 app这个module是测试用的，calendarpageview这个module才是我们真正的library。
 
@@ -247,13 +247,13 @@ PROJ_ARTIFACTID可以在project的**gradle.properties**中定义：`PROJ_ARTIFAC
 
 进个人主页，点击edit进入这个页面
 
-![http://git.oschina.net/cocobaby/kyson_public_log/raw/master/hikyson.cn/10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android%20library%E5%88%B0jcenter/apikeyplace.png?dir=0&filepath=hikyson.cn%2F10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android+library%E5%88%B0jcenter%2Fapikeyplace.png&oid=343587105556405d9cf6cd6eda4b2aeeb0feb616&sha=86b05ca7dd77ec438325c52ef0bd6639a4d22807](http://git.oschina.net/cocobaby/kyson_public_log/raw/master/hikyson.cn/10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android%20library%E5%88%B0jcenter/apikeyplace.png?dir=0&filepath=hikyson.cn%2F10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android+library%E5%88%B0jcenter%2Fapikeyplace.png&oid=343587105556405d9cf6cd6eda4b2aeeb0feb616&sha=86b05ca7dd77ec438325c52ef0bd6639a4d22807)
+![apikey](https://raw.githubusercontent.com/Kyson/Kyson.github.io/master/images/post_img/10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android%20library%E5%88%B0jcenter/apikeyplace.png)
 
 就能看到apikey了。
 
 然后把`bintray.user和bintray.apikey`填写到项目的**local.properties**文件中
 
-![http://git.oschina.net/cocobaby/kyson_public_log/raw/master/hikyson.cn/10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android%20library%E5%88%B0jcenter/localproperties.jpg?dir=0&filepath=hikyson.cn%2F10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android+library%E5%88%B0jcenter%2Flocalproperties.jpg&oid=e5b8600c81ccf65fce4109e795c34c450ccd78eb&sha=86b05ca7dd77ec438325c52ef0bd6639a4d22807](http://git.oschina.net/cocobaby/kyson_public_log/raw/master/hikyson.cn/10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android%20library%E5%88%B0jcenter/localproperties.jpg?dir=0&filepath=hikyson.cn%2F10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android+library%E5%88%B0jcenter%2Flocalproperties.jpg&oid=e5b8600c81ccf65fce4109e795c34c450ccd78eb&sha=86b05ca7dd77ec438325c52ef0bd6639a4d22807)
+![localproperties](https://raw.githubusercontent.com/Kyson/Kyson.github.io/master/images/post_img/10%E5%88%86%E9%92%9F%E5%8F%91%E5%B8%83android%20library%E5%88%B0jcenter/localproperties.jpg)
 
 > 一定要填写这个文件中！而且检查一下**.gitignore**文件是否有把**local.properties**忽略提交。因为apikey是不能被别人看到的。
 
