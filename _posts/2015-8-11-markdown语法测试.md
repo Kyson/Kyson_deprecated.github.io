@@ -3,8 +3,6 @@ layout: post
 title: markdown语法测试
 ---
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=201900&auto=1&height=66"></iframe>
-
 普通文字看下文章第二篇什么效果普通文字看下文章第二篇什么效果普通文字看下文章第二篇什么效果普通文字看下文章第二篇什么效果普通文字看下文章第二篇什么效果普通文字看下文章第二篇什么效果普通文字看下文章第二篇什么效果普通文字看下文章第二篇什么效果普通文字看下文章第二篇什么效果普通文字看下文章第二篇什么效果
 
 *斜体文字看下文章第二篇什么效果*
@@ -55,4 +53,6 @@ protected void onCreate(Bundle savedInstanceState) {
 |sgdsfd|sdfsdfs|hrtht|
 |zdhthnrt|sfvsv|是vs的vs的V|
 
-~~~删除这是我新加 的一句话，测试样式是否到位~~~
+~~删除这是我新加 的一句话，测试样式是否到位~~
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=201900&auto=1&height=66"></iframe>
