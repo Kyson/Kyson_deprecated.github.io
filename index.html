@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
+	  
       <div class="entry">
         {{ post.excerpt }}
       </div>
@@ -15,4 +15,16 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+  
+  
+{% for page in (1..paginator.total_pages) %}  
+    {% if page == 1 %}  
+        <a href="/index.html">{{ page }}</a>  
+    {% else %}  
+        <a href="{{ site.paginate_path | replace: ':num',page }}">{{ page }}</a>  
+    {% endif %}  
+{% endfor %}  
+  
+  
+  
 </div>
