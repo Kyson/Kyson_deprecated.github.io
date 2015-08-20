@@ -24,10 +24,10 @@ layout: default
 
 {% if paginator.total_pages > 1 %}
     {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" style="font-weight: bold font-size:32px" >上一页</a>
+        <a href="{{ paginator.previous_page_path }}" style="font-weight: bold font-size:64px" >上一页</a>
     {% endif %}
       
     {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" style="font-weight: bold font-size:32px">下一页</a>
+        <a href="{{ paginator.next_page_path }}" style="font-weight: bold font-size:64px">下一页</a>
     {% endif %}
 {% endif %}
