@@ -1,6 +1,6 @@
 ---
 layout: post
-title:【译文】Android-Notification详解
+title: Android-Notification详解
 ---
 
 原文：[http://developer.android.com/guide/topics/ui/notifiers/notifications.html](http://developer.android.com/guide/topics/ui/notifiers/notifications.html)
