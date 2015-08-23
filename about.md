@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Github：[https://github.com/Kyson](https://github.com/Kyson)
+Github:[Kyson](https://github.com/Kyson)
 
-OSC：[http://git.oschina.net/cocobaby](http://git.oschina.net/cocobaby)
+OSC:[cocobaby](http://git.oschina.net/cocobaby)
 
-我的新浪微博：[AndroidKy](http://weibo.com/1980495343/profile?topnav=1&wvr=5&user=1)
+我的新浪微博:[AndroidKy](http://weibo.com/1980495343/profile?topnav=1&wvr=5&user=1)
 
-我的邮箱：kysonchao@gmail.com
+我的邮箱:kysonchao@gmail.com
 
-我的个人博客：[http://www.hikyson.cn](http://www.hikyson.cn)
+我的个人博客:[www.hikyson.cn](http://www.hikyson.cn)
+
+facebook:[kyson.chao](https://www.facebook.com/kyson.chao)
+
+instagram:[android_ky](https://instagram.com/android_ky)
