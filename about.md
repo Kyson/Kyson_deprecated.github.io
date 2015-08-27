@@ -12,7 +12,9 @@ OSC:[cocobaby](http://git.oschina.net/cocobaby)
 
 我的邮箱:kysonchao@gmail.com
 
-我的个人博客:[www.hikyson.cn](http://www.hikyson.cn)
+个人主页:[www.hikyson.cn](http://www.hikyson.cn)
+
+个人博客:[http://blog.hikyson.cn/](http://blog.hikyson.cn/)
 
 facebook:[kyson.chao](https://www.facebook.com/kyson.chao)
 
