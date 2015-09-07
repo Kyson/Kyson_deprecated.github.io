@@ -1,6 +1,8 @@
 ---
 layout: post
 title: markdown语法测试
+published: false
+category: test
 tags: [test,markdown]
 ---
 
