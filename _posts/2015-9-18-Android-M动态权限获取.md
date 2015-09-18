@@ -4,7 +4,7 @@ title: Android-M动态权限获取
 tags: [Android-M,权限,permission]
 ---
 
-> 本文原作者：
+> 本文转载，原作者XX
 
 Android M引入了新的应用权限模型，目前官方已有中文版对其特性进行了概述：[http://developer.android.com/intl/zh-cn/preview/features/runtime-permissions.html](http://developer.android.com/intl/zh-cn/preview/features/runtime-permissions.html)
 
