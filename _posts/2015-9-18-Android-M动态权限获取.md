@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Android-M动态权限获取
+published: false
 tags: [Android-M,权限,permission]
 ---
 
