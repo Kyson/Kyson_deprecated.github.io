@@ -1,13 +1,13 @@
 ---
 layout: page
 title: 每日一问
-permalink: /a-question-a-day/
+permalink: /daily-question/
 ---
 
-<div class="aquestionadayposts">
+<div class="daily-question">
 {{var_dump($paginator);}}
-  {% for post in paginator.aquestionadayposts %}
-    <article class="aquestionadayposts">
+  {% for post in paginator.daily-question %}
+    <article class="daily-question">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 	  
