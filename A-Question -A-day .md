@@ -4,9 +4,9 @@ title: 每日一问
 permalink: /a-question-a-day/
 ---
 
-<div class="aquestionadayposts">
-  {% for post in paginator.posts %}
-    <article class="aquestionadayposts">
+<div class="posts">
+  {% for post in paginator.aquestionadayposts %}
+    <article class="posts">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 	  
