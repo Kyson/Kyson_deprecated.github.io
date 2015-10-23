@@ -30,10 +30,26 @@ TCP的三次握手结束之后相当于A和B之间有一个连接，之后发送
 
 **Q:Android主线程是怎么回事？怎么创建自己的“主线程”？**
 
-**A：**
+**A：**众所周知，Android应用运行在所谓的UI进程中，为了更好的用户体验，耗时操作必须放在子线程，而UI更新必须在UI线程也就是主线程中。
 
+谈到线程就必须说到handler、looper及message queue，这几个概念这边就不多说了，网上很多，android的主线程和其他线程一样的处理流程：UI更新操作通过handler发送到主线程的队列里，然后主线程的looper不停地从这个队列里拿出来消息（这边就是更新UI），然后做出相应的更新动作。
 
+既然主线程和其他线程没区别，那我们可以自己来创建一个“主线程”。
 
+不用重复造轮子，android有一个类叫做HandlerThread，这个Thread自带Looper，免去了我们要自己去创建Looper的步骤。使用起来也比较便利：
+
+```java
+mHandlerThread = new HandlerThread("handler_thread");
+mHandlerThread.start();
+mMyHandler = new MyHandler(mHandlerThread.getLooper());
+mMyHandler.sendEmptyMessage(1);
+```
+
+创建一个HandlerThread实例，启动，这时候这个线程中有一个消息队列处于阻塞状态，Looper不停地从这个队列中取消息（没有消息就阻塞）。这时候我们的HandlerThread线程就相当于主线程，只不过UI线程是用来更新UI，而我们这个还没有定义自己的处理流程。
+
+其实我们可以进去看下HandlerThread类，代码也很简单，run方法中调用Looper.prepare();所谓prepare就是给当前线程创建一个队列和Looper。然后调用Looper.loop()，这个方法是一个死循环，就是从队列拿消息处理。
+
+*这个问题我解释起来感觉比较晦涩，已经是基于对handler、Looper有一定了解的基础上做的回答。*
 
 
 
