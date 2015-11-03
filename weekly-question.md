@@ -6,6 +6,14 @@ permalink: /weekly-question/
 
 *每周一个问题，欢迎提问及回答（问题主要为Android、java及周边）*
 
+#### 2015-11-03
+
+**Q:IntentService的原理及使用方法。**
+
+**A：**
+
+---
+
 #### 2015-10-22
 
 **Q:Android主线程是怎么回事？怎么创建自己的“主线程”？**
