@@ -10,7 +10,7 @@ permalink: /weekly-question/
 
 **Q:IntentService的原理及使用方法。**
 
-**A：**
+**A：**直接看文章吧：[IntentService解析及用法](http://blog.hikyson.cn/Intent-Service%E8%A7%A3%E6%9E%90%E5%8F%8A%E7%94%A8%E6%B3%95/)
 
 ---
 

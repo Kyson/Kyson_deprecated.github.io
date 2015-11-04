@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Intent Service解析及用法
+title: IntentService解析及用法
 published: true
 tags: [service,handler,thread]
 ---
+
+这次挑个软柿子来捏：IntentService，这个类肯定用的也是比较多的，一般用来执行一些一次性的，比较小的任务。
 
 ## 简介
 
