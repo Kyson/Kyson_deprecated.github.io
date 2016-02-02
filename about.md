@@ -19,5 +19,3 @@ OSC:[cocobaby](http://git.oschina.net/cocobaby)
 facebook:[kyson.chao](https://www.facebook.com/kyson.chao)
 
 instagram:[android_ky](https://instagram.com/android_ky)
-
-test
