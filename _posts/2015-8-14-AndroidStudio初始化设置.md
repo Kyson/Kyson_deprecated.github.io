@@ -62,6 +62,8 @@ Android Studio每次启动会自动检查sdk及组件更新，如果不翻墙的
 ## 加速加载
 
 - 可以把不需要的插件禁用，在`setting -> plugins`
+- 启动时一般设置为不要打开最新的项目，而是自己选择。设置项在：
+	`settings -> System Settings -> reopen last project on startup`
 
 ## 插件
 
