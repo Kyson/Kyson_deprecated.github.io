@@ -27,7 +27,7 @@ android会在应用ANR之后在`/data/anr`路径下生成一个trace文件，该
 
 今天遇到一个ANR，分析了一下日志，找到如下信息：
 
-![android-anr-case-1.png]()
+![android-anr-case-1.png](https://raw.githubusercontent.com/Kyson/Kyson.github.io/master/images/post_img/Android-ANR%E5%AE%9E%E8%B7%B5/android-anr-case-1.png)
 
 这个很清楚AutoScrollHandler在处理消息时调用了ViewPager的setCurrentItem，导致无响应，我们知道这个API在一下子跳转太多的item会生成同样数量的View导致耗时，到此问题解决。
 
