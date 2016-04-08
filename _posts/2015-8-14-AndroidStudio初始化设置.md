@@ -90,3 +90,7 @@ Android Studio每次启动会自动检查sdk及组件更新，如果不翻墙的
 - SelectorChapek
 
 	根据drawable文件格式生成对应的selector（对文件命名很严格）
+
+- CheckStyle-IDEA
+
+	检查java代码风格插件
