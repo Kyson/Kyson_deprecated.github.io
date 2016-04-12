@@ -65,6 +65,31 @@ Android Studio每次启动会自动检查sdk及组件更新，如果不翻墙的
 - 启动时一般设置为不要打开最新的项目，而是自己选择。设置项在：
 	`settings -> System Settings -> reopen last project on startup`
 
+## 自动导包
+
+Eclipse中我们**ctrl shift+o** 即可自动导包，Android Studio中我们需要稍微设置一下，在路径：
+
+`Editor -> General -> Auto Import`
+
+中勾选**Optimize imports on the fly**和**Add unambiguous imports on the fly**就可以使用相应快捷键（如果之前快捷键设置为Eclipse相同的话就只需要按**ctrl shift+o**即可）。
+
+## Log颜色区分
+
+默认的配色不太好看，只有error是比较清楚的，现在修改为如下配色：
+
+|Log级别|颜色|
+|---|---|
+|Assert|#6D488C|
+|Debug|#287CA2|
+|Error|#DA0009|
+|Info|#5E8000|
+|Verbose|#000000|
+|Warning|#D78300|
+
+路径在：
+
+`Settings -> Editor -> Color & Fonts -> Android Logcat`
+
 ## 插件
 
 - Android Drawable Importer
