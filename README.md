@@ -2,4 +2,4 @@
 
 ## deprecated!
 
-欢迎访问：[hikyson.cn](hikyson.cn)
+欢迎访问：[hikyson.cn](http://www.hikyson.cn/)
